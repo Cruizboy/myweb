@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body{
+    background: #081b29;
+    color: #fff;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 20px 10px;
+    background: rgba(255,255,255,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.logo{
+    font-size: 40px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    animation-name: pass;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    
+ 
+}
+@keyframes pass{
+    from{
+        margin-left: -250px;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+.navigate a{
+    font-size: 20px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    
+}
+.navigate a.active{
+    cursor: default;
+    color: #00abf0;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0,10%;
+    text-align: center;
+}
+.content{
+   
+    max-width: 600px;
+}
+.content H1{
+    color:none;
+    
+    font-weight: 700;
+    line-height: 3;
+                    font-size: 40px;
+        text-decoration: underline;
+    animation-name: ps;
+    animation-duration: 2s;
+    animation-direction: alternate;
+
+
+}
+@keyframes ps{
+    from{
+        font-size: 0px;
+        text-decoration: none;
+    }
+    to{
+        font-size: 40px;
+        text-decoration: underline;
+    }
+
+}
+.content h3{
+        font-size: 20px;
+        font-weight: 800;  
+        color: #50ab65;          
+}
+.content p{
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+.content button{
+    padding: 20px;
+    font-size: larger;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 30px;
+    color: #50ab65;
+
+
+}
+
