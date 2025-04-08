@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        body{
+           background-color: #081b29;
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: rgba(255,255,255,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+        .logo{
+            font-size: 30px;
+            color: blue;
+            text-decoration: none;
+            font-weight: 700;
+            width: 500px;
+        }
+        nav a{
+            text-transform: uppercase;
+            font-size: 20px;
+            color: blue;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+
+        }
+        .active{
+color: #ffffff;
+cursor: auto;
+        }
+a:hover{
+    color: #ffffff;
+}
+        section{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+        }
+        .home{
+            max-width: 600px;
+        }
+        .home h1{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1.5;
+            color: #ffffff;
+
+        }
+        .home h3{
+            font-weight: 700;
+            line-height: 1.5;
+            color: #ffffff;
+
+        }
+        .home p{
+            line-height: 1.5;
+margin: 20px 0 40px;
+font-size: 16px;
+color: #50abf0;
+        }
+        
+       
+        
+        
+       
+       
+
+        .btn{
+            display: flex;
+            justify-content: space-between;
+            width: 340px;
+            height: 50px;
+        }
+        .btn a{
+display: inline-flex;
+            width: 150px;
+            justify-content: center;
+            height: 100%;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            align-content: center;
+            background-color: #50abf0;
+            border-radius: 8px;
+            border: 2px solid #00abfc;
+            letter-spacing: 2px;
+            font-weight: 500;
+
+        }
+        .btn a:nth-child(2){
+            background: transparent;
+            color: #00abfc;
+        }
+        .btn a:nth-child(2):hover{
+            background: #50abf0;
+            color: #ecf3f5;
+        }
+        .btn a:nth-child(1):hover{
+            background: transparent;
+            color: #00abfc;
+        }
+   
+.picture{
+    position: absolute;
+    width: 60%;
+    left: 40%;
+    margin-top: -260px;
+
+
+}
+img{
+    float: right;
+    width: 50%;
+    margin-top: 260px;
+}
+    
+
+
+
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1  class="logo">ITCRUIZ</h1>
+        <nav>
+            <a href="#" class="active">home</a>
+            <a href="#">about</a>
+            <a href="#">service</a>
+            <a href="#">portfolio</a>
+        </nav>
+    </header>
+    <section>
+        <div class="home">
+            <h1>I AM ITORO MARTIN</h1>
+            <h3>I am a frontend developer in nigeria</h3>
+            <p>I am very specialised in other art skills for up bringing a talented momentum of programming skills into the tech world and it is the most valued resorces intact for a personal development of vase study an so on Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam a omnis voluptatibus provident nemo, perspiciatis blanditiis, dolore unde ab repellendus autem id, eaque ipsa velit nostrum esse minus numquam soluta est aliquid magnam. Repudiandae officiis laboriosam esse? Molestias in dignissimos, voluptate provident quis asperiores eligendi distinctio odio? Rerum, excepturi dolorum.</p>
+
+           
+    
+
+            <div class="btn">
+    <a href="#">Get started</a>
+    <a href="#">let's talk</a>
+</div>
+        </div>
+    </section>
+</body>
+</html>
